@@ -39,6 +39,13 @@ double SimplePID::compute(double state) {
     return outputLim == 0 ? p + i + d : constrain(p + i + d, -outputLim, outputLim);
 }
 
+void SimplePID::reset() {
+    initialized = false;
+    lastError = 0;
+    integrator = 0;
+    lastTime = millis();
+}
+
 
 //// Getter and setter
 void SimplePID::setOutputLimit(double lim) {

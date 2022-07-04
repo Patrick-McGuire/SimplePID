@@ -46,6 +46,11 @@ public:
      */
     double compute(double state);
 
+    /**
+     * Resets the integration and derivative terms
+     */
+    void reset();
+
     //// Basic getter/setter
 
     double getKp() const;

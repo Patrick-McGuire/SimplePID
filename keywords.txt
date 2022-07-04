@@ -15,3 +15,4 @@ setLinearFeedforward	KEYWORD2
 getConstFeedforward	KEYWORD2
 setConstFeedforward	KEYWORD2
 invertConstFeedforward	KEYWORD2
+reset	KEYWORD2
