@@ -1,6 +1,5 @@
 SimplePID	KEYWORD1
 
-SimplePID	KEYWORD2
 setOutputLimit	KEYWORD2
 setIntegratorLimit	KEYWORD2
 updateSetpoint	KEYWORD2
