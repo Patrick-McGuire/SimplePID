@@ -4,7 +4,7 @@
 SimplePID::SimplePID(double _kp, double _ki, double _kd) {
     kp = _kp;
     ki = _ki;
-    kd = _kd; 
+    kd = _kd;
 }
 
 void SimplePID::updateSetpoint(double _setpoint) {
