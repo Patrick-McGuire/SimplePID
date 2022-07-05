@@ -21,7 +21,7 @@ double SimplePID::compute(double state) {
     // Calculate the error
     double error = setpoint - state;
     // Calculate change in time
-    double time = double(millis()) / 1000;
+    double time = double(millis()) / 1000.0;
     double dt = time - lastTime;
     lastTime = time;
     // Calculate the components
